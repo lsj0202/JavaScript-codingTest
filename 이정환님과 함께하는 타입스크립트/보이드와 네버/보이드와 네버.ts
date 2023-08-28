@@ -20,10 +20,11 @@ const fun4 = (): never => {
 };
 
 let a: never; // 그 어떠한 값도 저장 할 수 없다
-a = 1;
-a = {};
-a = "";
-a = undefined;
-a = null;
+
+// a = 1;
+// a = {};
+// a = "";
+// a = undefined;
+// a = null;
 
 // 한 줄평: void, never는 사용 용도가 뚜렷하여 좋았습니다 굿이에요~ 굿~~
